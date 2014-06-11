@@ -1,0 +1,9 @@
+#!/bin/bash -e
+
+set -u
+
+for dir in logs tmp pid cache dbs env; do
+	mkdir -p $dir
+done
+
+erb  versions/2.7.0/config/server.xml.erb > versions/2.7.0/config/server.xml

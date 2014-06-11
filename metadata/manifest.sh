@@ -1,0 +1,13 @@
+Name="smartfox"
+Cartridge_Short_Name="SFS"
+Display_Name="SFS"
+Version="2.7.0"
+Cartridge_Version="0.0.1"
+Description=""Fullyqualifieddomainnamefortheapplication.""
+Key="OPENSHIFT_APP_NAME"
+Description=""Applicationname""
+Private_IP_Name="DB_HOST"
+Private_Port_Name="DB_PORT"
+Private_Port="7474"
+Public_Port_Name="DB_PROXY_PORT"
+action_reset_password_hook=reset-password-info

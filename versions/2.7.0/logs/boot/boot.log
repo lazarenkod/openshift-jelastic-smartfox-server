@@ -1,0 +1,258 @@
+11 Jun 2014 | 19:28:09,186 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+11 Jun 2014 | 19:28:09,196 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.10.4 { main }
+11 Jun 2014 | 19:28:09,197 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 8
+	VM Max. memory: 127MB
+	os.name: Linux
+	os.arch: amd64
+	os.version: 2.6.32-042stab088.4
+	java.version: 1.7.0_21
+	java.vendor: Oracle Corporation
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.7
+	java.vm.version: 23.21-b01
+	java.vm.vendor: Oracle Corporation
+	java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+	java.io.tmpdir: /tmp
+	Default charset: UTF-8
+
+11 Jun 2014 | 19:28:09,199 | INFO  | main | bootLogger |     | Network Info:
+	Card: venet0
+		 ->192.168.100.200
+		 ->127.0.0.1
+	Card: lo
+		 ->0:0:0:0:0:0:0:1%1
+		 ->127.0.0.1
+
+11 Jun 2014 | 19:28:09,207 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@8e760f2
+11 Jun 2014 | 19:28:09,219 | INFO  | main | bootLogger |     | TCP Selector opened
+11 Jun 2014 | 19:28:09,232 | INFO  | main | bootLogger |     | UDP Selector opened
+11 Jun 2014 | 19:28:09,239 | INFO  | main | bootLogger |     | AcceptSelector opened
+11 Jun 2014 | 19:28:09,244 | INFO  | main | bootLogger |     | Added bound tcp socket --> 192.168.100.200:9933
+11 Jun 2014 | 19:28:09,247 | INFO  | main | bootLogger |     | Added bound udp socket --> 192.168.100.200:9933
+11 Jun 2014 | 19:28:09,257 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.SystemController -- Queue: 0/20000
+11 Jun 2014 | 19:28:09,270 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.SmasherController -- Queue: 0/1000
+11 Jun 2014 | 19:28:09,275 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.ExtensionController -- Queue: 0/20000
+11 Jun 2014 | 19:28:09,277 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@4d87366e
+11 Jun 2014 | 19:28:09,277 | INFO  | main | bootLogger |     | SocketReader started
+11 Jun 2014 | 19:28:09,278 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+11 Jun 2014 | 19:28:09,284 | INFO  | main | bootLogger |     | Socket Writer started (pool size:3)
+11 Jun 2014 | 19:28:09,316 | INFO  | main | bootLogger |     | DatagramReader started
+11 Jun 2014 | 19:28:09,319 | INFO  | main | bootLogger |     | Security Manager started
+11 Jun 2014 | 19:28:09,320 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+11 Jun 2014 | 19:28:09,323 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]
+11 Jun 2014 | 19:38:29,992 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+11 Jun 2014 | 19:38:29,994 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.10.4 { main }
+11 Jun 2014 | 19:38:29,996 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 8
+	VM Max. memory: 127MB
+	os.name: Linux
+	os.arch: amd64
+	os.version: 2.6.32-042stab088.4
+	java.version: 1.7.0_21
+	java.vendor: Oracle Corporation
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.7
+	java.vm.version: 23.21-b01
+	java.vm.vendor: Oracle Corporation
+	java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+	java.io.tmpdir: /tmp
+	Default charset: UTF-8
+
+11 Jun 2014 | 19:38:29,997 | INFO  | main | bootLogger |     | Network Info:
+	Card: venet0
+		 ->192.168.100.200
+		 ->127.0.0.1
+	Card: lo
+		 ->0:0:0:0:0:0:0:1%1
+		 ->127.0.0.1
+
+11 Jun 2014 | 19:38:30,006 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@18a25fa3
+11 Jun 2014 | 19:38:30,017 | INFO  | main | bootLogger |     | TCP Selector opened
+11 Jun 2014 | 19:38:30,028 | INFO  | main | bootLogger |     | UDP Selector opened
+11 Jun 2014 | 19:38:30,033 | INFO  | main | bootLogger |     | AcceptSelector opened
+11 Jun 2014 | 19:38:30,037 | INFO  | main | bootLogger |     | Added bound tcp socket --> 192.168.100.200:9933
+11 Jun 2014 | 19:38:30,041 | INFO  | main | bootLogger |     | Added bound udp socket --> 192.168.100.200:9933
+11 Jun 2014 | 19:38:30,044 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.SystemController -- Queue: 0/20000
+11 Jun 2014 | 19:38:30,045 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.SmasherController -- Queue: 0/1000
+11 Jun 2014 | 19:38:30,048 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.ExtensionController -- Queue: 0/20000
+11 Jun 2014 | 19:38:30,050 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@48474d6d
+11 Jun 2014 | 19:38:30,050 | INFO  | main | bootLogger |     | SocketReader started
+11 Jun 2014 | 19:38:30,050 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+11 Jun 2014 | 19:38:30,053 | INFO  | main | bootLogger |     | Socket Writer started (pool size:3)
+11 Jun 2014 | 19:38:30,054 | INFO  | main | bootLogger |     | DatagramReader started
+11 Jun 2014 | 19:38:30,058 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+11 Jun 2014 | 19:38:30,059 | INFO  | main | bootLogger |     | Security Manager started
+11 Jun 2014 | 19:38:30,062 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]
+11 Jun 2014 | 19:41:41,329 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+11 Jun 2014 | 19:41:41,332 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.10.4 { main }
+11 Jun 2014 | 19:41:41,334 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 8
+	VM Max. memory: 127MB
+	os.name: Linux
+	os.arch: amd64
+	os.version: 2.6.32-042stab088.4
+	java.version: 1.7.0_21
+	java.vendor: Oracle Corporation
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.7
+	java.vm.version: 23.21-b01
+	java.vm.vendor: Oracle Corporation
+	java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+	java.io.tmpdir: /tmp
+	Default charset: UTF-8
+
+11 Jun 2014 | 19:41:41,335 | INFO  | main | bootLogger |     | Network Info:
+	Card: venet0
+		 ->192.168.100.200
+		 ->127.0.0.1
+	Card: lo
+		 ->0:0:0:0:0:0:0:1%1
+		 ->127.0.0.1
+
+11 Jun 2014 | 19:41:41,343 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@353980e1
+11 Jun 2014 | 19:41:41,354 | INFO  | main | bootLogger |     | TCP Selector opened
+11 Jun 2014 | 19:41:41,365 | INFO  | main | bootLogger |     | UDP Selector opened
+11 Jun 2014 | 19:41:41,370 | INFO  | main | bootLogger |     | AcceptSelector opened
+11 Jun 2014 | 19:41:41,374 | INFO  | main | bootLogger |     | Added bound tcp socket --> 192.168.100.200:9933
+11 Jun 2014 | 19:41:41,380 | INFO  | main | bootLogger |     | Added bound udp socket --> 192.168.100.200:9933
+11 Jun 2014 | 19:41:41,383 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.SystemController -- Queue: 0/20000
+11 Jun 2014 | 19:41:41,384 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.SmasherController -- Queue: 0/1000
+11 Jun 2014 | 19:41:41,479 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.ExtensionController -- Queue: 0/20000
+11 Jun 2014 | 19:41:41,480 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@77729e5a
+11 Jun 2014 | 19:41:41,480 | INFO  | main | bootLogger |     | SocketReader started
+11 Jun 2014 | 19:41:41,480 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+11 Jun 2014 | 19:41:41,484 | INFO  | main | bootLogger |     | Socket Writer started (pool size:3)
+11 Jun 2014 | 19:41:41,484 | INFO  | main | bootLogger |     | DatagramReader started
+11 Jun 2014 | 19:41:41,487 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+11 Jun 2014 | 19:41:41,487 | INFO  | main | bootLogger |     | Security Manager started
+11 Jun 2014 | 19:41:41,492 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]
+11 Jun 2014 | 19:42:43,808 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+11 Jun 2014 | 19:42:43,811 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.10.4 { main }
+11 Jun 2014 | 19:42:43,813 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 8
+	VM Max. memory: 127MB
+	os.name: Linux
+	os.arch: amd64
+	os.version: 2.6.32-042stab088.4
+	java.version: 1.7.0_21
+	java.vendor: Oracle Corporation
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.7
+	java.vm.version: 23.21-b01
+	java.vm.vendor: Oracle Corporation
+	java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+	java.io.tmpdir: /tmp
+	Default charset: UTF-8
+
+11 Jun 2014 | 19:42:43,814 | INFO  | main | bootLogger |     | Network Info:
+	Card: venet0
+		 ->192.168.100.200
+		 ->127.0.0.1
+	Card: lo
+		 ->0:0:0:0:0:0:0:1%1
+		 ->127.0.0.1
+
+11 Jun 2014 | 19:42:43,823 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@523c4f13
+11 Jun 2014 | 19:42:43,834 | INFO  | main | bootLogger |     | TCP Selector opened
+11 Jun 2014 | 19:42:43,844 | INFO  | main | bootLogger |     | UDP Selector opened
+11 Jun 2014 | 19:42:43,849 | INFO  | main | bootLogger |     | AcceptSelector opened
+11 Jun 2014 | 19:42:43,853 | INFO  | main | bootLogger |     | Added bound tcp socket --> 192.168.100.200:9933
+11 Jun 2014 | 19:42:43,858 | INFO  | main | bootLogger |     | Added bound udp socket --> 192.168.100.200:9933
+11 Jun 2014 | 19:42:43,861 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.SystemController -- Queue: 0/20000
+11 Jun 2014 | 19:42:43,861 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.SmasherController -- Queue: 0/1000
+11 Jun 2014 | 19:42:43,862 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.ExtensionController -- Queue: 0/20000
+11 Jun 2014 | 19:42:43,863 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@242eb7e
+11 Jun 2014 | 19:42:43,863 | INFO  | main | bootLogger |     | SocketReader started
+11 Jun 2014 | 19:42:43,863 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+11 Jun 2014 | 19:42:43,868 | INFO  | main | bootLogger |     | Socket Writer started (pool size:3)
+11 Jun 2014 | 19:42:43,870 | INFO  | main | bootLogger |     | DatagramReader started
+11 Jun 2014 | 19:42:43,872 | INFO  | main | bootLogger |     | Security Manager started
+11 Jun 2014 | 19:42:43,875 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]
+11 Jun 2014 | 19:42:43,888 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+11 Jun 2014 | 19:43:00,540 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+11 Jun 2014 | 19:43:00,542 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.10.4 { main }
+11 Jun 2014 | 19:43:00,544 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 8
+	VM Max. memory: 127MB
+	os.name: Linux
+	os.arch: amd64
+	os.version: 2.6.32-042stab088.4
+	java.version: 1.7.0_21
+	java.vendor: Oracle Corporation
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.7
+	java.vm.version: 23.21-b01
+	java.vm.vendor: Oracle Corporation
+	java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+	java.io.tmpdir: /tmp
+	Default charset: UTF-8
+
+11 Jun 2014 | 19:43:00,545 | INFO  | main | bootLogger |     | Network Info:
+	Card: venet0
+		 ->192.168.100.200
+		 ->127.0.0.1
+	Card: lo
+		 ->0:0:0:0:0:0:0:1%1
+		 ->127.0.0.1
+
+11 Jun 2014 | 19:43:00,552 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@756b9292
+11 Jun 2014 | 19:43:00,564 | INFO  | main | bootLogger |     | TCP Selector opened
+11 Jun 2014 | 19:43:00,578 | INFO  | main | bootLogger |     | UDP Selector opened
+11 Jun 2014 | 19:43:00,582 | INFO  | main | bootLogger |     | AcceptSelector opened
+11 Jun 2014 | 19:43:00,586 | INFO  | main | bootLogger |     | Added bound tcp socket --> 192.168.100.200:9933
+11 Jun 2014 | 19:43:00,589 | INFO  | main | bootLogger |     | Added bound udp socket --> 192.168.100.200:9933
+11 Jun 2014 | 19:43:00,591 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.SystemController -- Queue: 0/20000
+11 Jun 2014 | 19:43:00,592 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.SmasherController -- Queue: 0/1000
+11 Jun 2014 | 19:43:00,593 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.ExtensionController -- Queue: 0/20000
+11 Jun 2014 | 19:43:00,594 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@77729e5a
+11 Jun 2014 | 19:43:00,594 | INFO  | main | bootLogger |     | SocketReader started
+11 Jun 2014 | 19:43:00,600 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+11 Jun 2014 | 19:43:00,605 | INFO  | main | bootLogger |     | Socket Writer started (pool size:3)
+11 Jun 2014 | 19:43:00,609 | INFO  | main | bootLogger |     | DatagramReader started
+11 Jun 2014 | 19:43:00,612 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+11 Jun 2014 | 19:43:00,614 | INFO  | main | bootLogger |     | Security Manager started
+11 Jun 2014 | 19:43:00,618 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]
+11 Jun 2014 | 19:47:33,084 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+11 Jun 2014 | 19:47:33,087 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.10.4 { main }
+11 Jun 2014 | 19:47:33,088 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 8
+	VM Max. memory: 127MB
+	os.name: Linux
+	os.arch: amd64
+	os.version: 2.6.32-042stab088.4
+	java.version: 1.7.0_21
+	java.vendor: Oracle Corporation
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.7
+	java.vm.version: 23.21-b01
+	java.vm.vendor: Oracle Corporation
+	java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+	java.io.tmpdir: /tmp
+	Default charset: UTF-8
+
+11 Jun 2014 | 19:47:33,090 | INFO  | main | bootLogger |     | Network Info:
+	Card: venet0
+		 ->192.168.100.200
+		 ->127.0.0.1
+	Card: lo
+		 ->0:0:0:0:0:0:0:1%1
+		 ->127.0.0.1
+
+11 Jun 2014 | 19:47:33,098 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@717c50e2
+11 Jun 2014 | 19:47:33,107 | INFO  | main | bootLogger |     | TCP Selector opened
+11 Jun 2014 | 19:47:33,120 | INFO  | main | bootLogger |     | UDP Selector opened
+11 Jun 2014 | 19:47:33,124 | INFO  | main | bootLogger |     | AcceptSelector opened
+11 Jun 2014 | 19:47:33,129 | INFO  | main | bootLogger |     | Added bound tcp socket --> 192.168.100.200:9933
+11 Jun 2014 | 19:47:33,134 | INFO  | main | bootLogger |     | Added bound udp socket --> 192.168.100.200:9933
+11 Jun 2014 | 19:47:33,137 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.SystemController -- Queue: 0/20000
+11 Jun 2014 | 19:47:33,138 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.SmasherController -- Queue: 0/1000
+11 Jun 2014 | 19:47:33,139 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.ExtensionController -- Queue: 0/20000
+11 Jun 2014 | 19:47:33,140 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@78443e12
+11 Jun 2014 | 19:47:33,140 | INFO  | main | bootLogger |     | SocketReader started
+11 Jun 2014 | 19:47:33,140 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+11 Jun 2014 | 19:47:33,143 | INFO  | main | bootLogger |     | Socket Writer started (pool size:3)
+11 Jun 2014 | 19:47:33,143 | INFO  | main | bootLogger |     | DatagramReader started
+11 Jun 2014 | 19:47:33,152 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+11 Jun 2014 | 19:47:33,158 | INFO  | main | bootLogger |     | Security Manager started
+11 Jun 2014 | 19:47:33,162 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]

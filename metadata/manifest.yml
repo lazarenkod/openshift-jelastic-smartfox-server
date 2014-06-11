@@ -1,0 +1,61 @@
+Name: smartfox
+Cartridge-Short-Name: SFS
+Display-Name: SFS
+Description: "SmartFox."
+Version: '2.7.0'
+License: GNU GENERAL PUBLIC LICENSE
+License-Url: 
+Vendor: Smartfox
+Cartridge-Version: 0.0.1
+Cartridge-Vendor: smartfox
+Source-Url: https://github.com/ihorman/openshift-jelastic-smartfox-server.git
+Categories:
+  - service
+  - database
+  - embedded
+Website: http://www.neo4j.org/
+Help-Topics:
+  "Developer Center": https://www.openshift.com/developers
+Cart-Data:
+  - Key: OPENSHIFT_SFS_LOG_DIR
+    Type: environment
+    Description: "Directory to store application log files."
+  - Key: OPENSHIFT_TMP_DIR
+    Type: environment
+    Description: "Directory to store application temporary files."
+  - Key: OPENSHIFT_REPO_DIR
+    Type: environment
+    Description: "Application root directory where application files reside. This directory is reset every time you do a git-push"
+  - Key: OPENSHIFT_APP_DNS
+    Type: environment
+    Description: "Fully qualified domain name for the application."
+  - Key: OPENSHIFT_APP_NAME
+    Type: environment
+    Description: "Application name"
+  - Key: OPENSHIFT_DATA_DIR
+    Type: environment
+    Description: "Directory to store application data files. Preserved across git-pushes. Not shared across gears."
+  - Key: OPENSHIFT_APP_UUID
+    Type: environment
+    Description: "Unique ID which identified the application. Does not change between gears."
+  - Key: OPENSHIFT_GEAR_UUID
+    Type: environment
+    Description: "Unique ID which identified the gear. This value changes between gears."
+Provides:
+  - neo4j-1.9
+  - "neo4j"
+Scaling:
+  Min: 1
+  Max: 1
+Endpoints:
+  - Private-IP-Name:   DB_HOST
+    Private-Port-Name: DB_PORT
+    Private-Port:      7474
+    Public-Port-Name:  DB_PROXY_PORT
+Publishes:
+  publish-db-connection-info:
+    Type: "ENV:NET_TCP:db:connection-info"
+Subscribes:
+ reset-password-info:
+    Type: "FILESYSTEM:reset-password"
+    Required: false

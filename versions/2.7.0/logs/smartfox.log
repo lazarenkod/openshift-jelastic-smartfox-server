@@ -1,0 +1,294 @@
+11 Jun 2014 | 19:27:59,200 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+11 Jun 2014 | 19:27:59,219 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|   __|   __|   __|  |_  |  |  |  | __  |     |     |_   _|
+|__   |   __|__   |  |  _|-   -|  | __ -|  |  |  |  | | |  
+|_____|__|  |_____|  |___|__|__|  |_____|_____|_____| |_|
+
+11 Jun 2014 | 19:28:00,468 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License code not found, starting Community Edition license
+11 Jun 2014 | 19:28:00,469 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initalized
+11 Jun 2014 | 19:28:00,495 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "/tmp/vfs_cache" as temporary files store.
+11 Jun 2014 | 19:28:00,682 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+===================================
+LICENSE DETAILS
+-----------------------------------
+Type            : Community Edition
+Max users       : 100
+===================================
+
+11 Jun 2014 | 19:28:00,684 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+11 Jun 2014 | 19:28:00,685 | INFO  | main | entities.managers.SFSBannedUserManager |     | No BannedUser data available, starting with a clean DB.
+11 Jun 2014 | 19:28:00,705 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+11 Jun 2014 | 19:28:00,708 | INFO  | main | v2.config.SFSConfigurator |     | Loading: zones/BasicExamples.zone.xml
+11 Jun 2014 | 19:28:00,786 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+11 Jun 2014 | 19:28:00,845 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ]
+11 Jun 2014 | 19:28:01,273 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 1, Group: default, isGame: false ]
+11 Jun 2014 | 19:28:01,287 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+11 Jun 2014 | 19:28:09,174 | INFO  | main | v2.http.SFSHttpServer |     | Http Server started.
+11 Jun 2014 | 19:28:09,324 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 192.168.100.200:9933, (Tcp) } { 192.168.100.200:9933, (Udp) } 
+11 Jun 2014 | 19:28:09,325 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.7.0 ] 
+
+11 Jun 2014 | 19:28:09,328 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.7.0) READY!
+11 Jun 2014 | 19:28:12,719 | INFO  | Thread-2 | entities.managers.SFSZoneManager |     | BuddyList saveAll...
+11 Jun 2014 | 19:28:12,720 | WARN  | SFS2X ShutdownHook | v2.core.SFSShutdownHook |     | SFS2X is shutting down. The process may take a few seconds...
+11 Jun 2014 | 19:28:12,778 | INFO  | Thread-3 | entities.managers.SFSBannedUserManager |     | BanUser data saved.
+11 Jun 2014 | 19:38:23,610 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+11 Jun 2014 | 19:38:23,630 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|   __|   __|   __|  |_  |  |  |  | __  |     |     |_   _|
+|__   |   __|__   |  |  _|-   -|  | __ -|  |  |  |  | | |  
+|_____|__|  |_____|  |___|__|__|  |_____|_____|_____| |_|
+
+11 Jun 2014 | 19:38:24,979 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License code not found, starting Community Edition license
+11 Jun 2014 | 19:38:24,980 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initalized
+11 Jun 2014 | 19:38:25,006 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "/tmp/vfs_cache" as temporary files store.
+11 Jun 2014 | 19:38:25,167 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+===================================
+LICENSE DETAILS
+-----------------------------------
+Type            : Community Edition
+Max users       : 100
+===================================
+
+11 Jun 2014 | 19:38:25,169 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+11 Jun 2014 | 19:38:25,204 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+11 Jun 2014 | 19:38:25,219 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+11 Jun 2014 | 19:38:25,224 | INFO  | main | v2.config.SFSConfigurator |     | Loading: zones/BasicExamples.zone.xml
+11 Jun 2014 | 19:38:25,279 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+11 Jun 2014 | 19:38:25,331 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ]
+11 Jun 2014 | 19:38:25,723 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 1, Group: default, isGame: false ]
+11 Jun 2014 | 19:38:25,743 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+11 Jun 2014 | 19:38:29,991 | INFO  | main | v2.http.SFSHttpServer |     | Http Server started.
+11 Jun 2014 | 19:38:30,063 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 192.168.100.200:9933, (Tcp) } { 192.168.100.200:9933, (Udp) } 
+11 Jun 2014 | 19:38:30,064 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.7.0 ] 
+
+11 Jun 2014 | 19:38:30,067 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.7.0) READY!
+11 Jun 2014 | 19:38:41,200 | INFO  | Thread-2 | entities.managers.SFSZoneManager |     | BuddyList saveAll...
+11 Jun 2014 | 19:38:41,201 | WARN  | SFS2X ShutdownHook | v2.core.SFSShutdownHook |     | SFS2X is shutting down. The process may take a few seconds...
+11 Jun 2014 | 19:38:41,217 | INFO  | Thread-3 | entities.managers.SFSBannedUserManager |     | BanUser data saved.
+11 Jun 2014 | 19:41:37,134 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+11 Jun 2014 | 19:41:37,151 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|   __|   __|   __|  |_  |  |  |  | __  |     |     |_   _|
+|__   |   __|__   |  |  _|-   -|  | __ -|  |  |  |  | | |  
+|_____|__|  |_____|  |___|__|__|  |_____|_____|_____| |_|
+
+11 Jun 2014 | 19:41:38,414 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License code not found, starting Community Edition license
+11 Jun 2014 | 19:41:38,415 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initalized
+11 Jun 2014 | 19:41:38,440 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "/tmp/vfs_cache" as temporary files store.
+11 Jun 2014 | 19:41:38,568 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+===================================
+LICENSE DETAILS
+-----------------------------------
+Type            : Community Edition
+Max users       : 100
+===================================
+
+11 Jun 2014 | 19:41:38,570 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+11 Jun 2014 | 19:41:38,602 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+11 Jun 2014 | 19:41:38,614 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+11 Jun 2014 | 19:41:38,618 | INFO  | main | v2.config.SFSConfigurator |     | Loading: zones/BasicExamples.zone.xml
+11 Jun 2014 | 19:41:38,679 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+11 Jun 2014 | 19:41:38,733 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ]
+11 Jun 2014 | 19:41:39,103 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 1, Group: default, isGame: false ]
+11 Jun 2014 | 19:41:39,116 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+11 Jun 2014 | 19:41:41,329 | INFO  | main | v2.http.SFSHttpServer |     | Http Server started.
+11 Jun 2014 | 19:41:41,493 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 192.168.100.200:9933, (Tcp) } { 192.168.100.200:9933, (Udp) } 
+11 Jun 2014 | 19:41:41,494 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.7.0 ] 
+
+11 Jun 2014 | 19:41:41,498 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.7.0) READY!
+11 Jun 2014 | 19:41:49,774 | INFO  | Thread-2 | entities.managers.SFSZoneManager |     | BuddyList saveAll...
+11 Jun 2014 | 19:41:49,774 | WARN  | SFS2X ShutdownHook | v2.core.SFSShutdownHook |     | SFS2X is shutting down. The process may take a few seconds...
+11 Jun 2014 | 19:41:49,811 | INFO  | Thread-3 | entities.managers.SFSBannedUserManager |     | BanUser data saved.
+11 Jun 2014 | 19:42:39,592 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+11 Jun 2014 | 19:42:39,610 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|   __|   __|   __|  |_  |  |  |  | __  |     |     |_   _|
+|__   |   __|__   |  |  _|-   -|  | __ -|  |  |  |  | | |  
+|_____|__|  |_____|  |___|__|__|  |_____|_____|_____| |_|
+
+11 Jun 2014 | 19:42:40,880 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License code not found, starting Community Edition license
+11 Jun 2014 | 19:42:40,880 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initalized
+11 Jun 2014 | 19:42:40,906 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "/tmp/vfs_cache" as temporary files store.
+11 Jun 2014 | 19:42:41,042 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+===================================
+LICENSE DETAILS
+-----------------------------------
+Type            : Community Edition
+Max users       : 100
+===================================
+
+11 Jun 2014 | 19:42:41,043 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+11 Jun 2014 | 19:42:41,074 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+11 Jun 2014 | 19:42:41,086 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+11 Jun 2014 | 19:42:41,093 | INFO  | main | v2.config.SFSConfigurator |     | Loading: zones/BasicExamples.zone.xml
+11 Jun 2014 | 19:42:41,157 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+11 Jun 2014 | 19:42:41,215 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ]
+11 Jun 2014 | 19:42:41,643 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 1, Group: default, isGame: false ]
+11 Jun 2014 | 19:42:41,656 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+11 Jun 2014 | 19:42:43,807 | INFO  | main | v2.http.SFSHttpServer |     | Http Server started.
+11 Jun 2014 | 19:42:43,876 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 192.168.100.200:9933, (Tcp) } { 192.168.100.200:9933, (Udp) } 
+11 Jun 2014 | 19:42:43,877 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.7.0 ] 
+
+11 Jun 2014 | 19:42:43,890 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.7.0) READY!
+11 Jun 2014 | 19:42:50,343 | WARN  | SFS2X ShutdownHook | v2.core.SFSShutdownHook |     | SFS2X is shutting down. The process may take a few seconds...
+11 Jun 2014 | 19:42:50,345 | INFO  | Thread-2 | entities.managers.SFSZoneManager |     | BuddyList saveAll...
+11 Jun 2014 | 19:42:50,358 | INFO  | Thread-3 | entities.managers.SFSBannedUserManager |     | BanUser data saved.
+11 Jun 2014 | 19:42:56,507 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+11 Jun 2014 | 19:42:56,525 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|   __|   __|   __|  |_  |  |  |  | __  |     |     |_   _|
+|__   |   __|__   |  |  _|-   -|  | __ -|  |  |  |  | | |  
+|_____|__|  |_____|  |___|__|__|  |_____|_____|_____| |_|
+
+11 Jun 2014 | 19:42:57,782 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License code not found, starting Community Edition license
+11 Jun 2014 | 19:42:57,783 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initalized
+11 Jun 2014 | 19:42:57,813 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "/tmp/vfs_cache" as temporary files store.
+11 Jun 2014 | 19:42:57,936 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+===================================
+LICENSE DETAILS
+-----------------------------------
+Type            : Community Edition
+Max users       : 100
+===================================
+
+11 Jun 2014 | 19:42:57,938 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+11 Jun 2014 | 19:42:57,966 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+11 Jun 2014 | 19:42:57,981 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+11 Jun 2014 | 19:42:57,985 | INFO  | main | v2.config.SFSConfigurator |     | Loading: zones/BasicExamples.zone.xml
+11 Jun 2014 | 19:42:58,064 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+11 Jun 2014 | 19:42:58,115 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ]
+11 Jun 2014 | 19:42:58,490 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 1, Group: default, isGame: false ]
+11 Jun 2014 | 19:42:58,503 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+11 Jun 2014 | 19:43:00,539 | INFO  | main | v2.http.SFSHttpServer |     | Http Server started.
+11 Jun 2014 | 19:43:00,619 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 192.168.100.200:9933, (Tcp) } { 192.168.100.200:9933, (Udp) } 
+11 Jun 2014 | 19:43:00,619 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.7.0 ] 
+
+11 Jun 2014 | 19:43:00,622 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.7.0) READY!
+11 Jun 2014 | 19:44:41,006 | INFO  | Thread-2 | entities.managers.SFSZoneManager |     | BuddyList saveAll...
+11 Jun 2014 | 19:44:41,006 | WARN  | SFS2X ShutdownHook | v2.core.SFSShutdownHook |     | SFS2X is shutting down. The process may take a few seconds...
+11 Jun 2014 | 19:44:41,035 | INFO  | Thread-3 | entities.managers.SFSBannedUserManager |     | BanUser data saved.
+11 Jun 2014 | 19:47:28,855 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+11 Jun 2014 | 19:47:28,882 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|   __|   __|   __|  |_  |  |  |  | __  |     |     |_   _|
+|__   |   __|__   |  |  _|-   -|  | __ -|  |  |  |  | | |  
+|_____|__|  |_____|  |___|__|__|  |_____|_____|_____| |_|
+
+11 Jun 2014 | 19:47:30,039 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License code not found, starting Community Edition license
+11 Jun 2014 | 19:47:30,040 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initalized
+11 Jun 2014 | 19:47:30,063 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "/tmp/vfs_cache" as temporary files store.
+11 Jun 2014 | 19:47:30,191 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+===================================
+LICENSE DETAILS
+-----------------------------------
+Type            : Community Edition
+Max users       : 100
+===================================
+
+11 Jun 2014 | 19:47:30,193 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+11 Jun 2014 | 19:47:30,221 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+11 Jun 2014 | 19:47:30,233 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+11 Jun 2014 | 19:47:30,237 | INFO  | main | v2.config.SFSConfigurator |     | Loading: zones/BasicExamples.zone.xml
+11 Jun 2014 | 19:47:30,291 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+11 Jun 2014 | 19:47:30,340 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ]
+11 Jun 2014 | 19:47:30,715 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 1, Group: default, isGame: false ]
+11 Jun 2014 | 19:47:30,728 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+11 Jun 2014 | 19:47:33,083 | INFO  | main | v2.http.SFSHttpServer |     | Http Server started.
+11 Jun 2014 | 19:47:33,163 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 192.168.100.200:9933, (Tcp) } { 192.168.100.200:9933, (Udp) } 
+11 Jun 2014 | 19:47:33,163 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.7.0 ] 
+
+11 Jun 2014 | 19:47:33,167 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.7.0) READY!
+11 Jun 2014 | 19:55:33,171 | INFO  | pool-2-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+11 Jun 2014 | 19:55:33,171 | INFO  | pool-2-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+11 Jun 2014 | 19:55:33,171 | INFO  | pool-2-thread-3 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/0
