@@ -413,14 +413,14 @@ $INSTALL4J_JAVA_PREFIX "$app_java_home/bin/java" -server -Dinstall4j.jvmDir="$ap
     ;;
     stop)
         echo "Shutting down sfs2x-service"
-
+cd ${OPENSHIFT_SFS_DIR}/versions/2.7.0
 $INSTALL4J_JAVA_PREFIX "$app_java_home/bin/java" -server -Dinstall4j.jvmDir="$app_java_home" -Dexe4j.moduleName="$prg_dir/$progname" -classpath "$local_classpath" com.install4j.runtime.launcher.Launcher stop
 
 
     ;;
     restart|force-reload)
         echo "Shutting down sfs2x-service"
-
+cd ${OPENSHIFT_SFS_DIR}/versions/2.7.0
 $INSTALL4J_JAVA_PREFIX "$app_java_home/bin/java" -server -Dinstall4j.jvmDir="$app_java_home" -Dexe4j.moduleName="$prg_dir/$progname" -classpath "$local_classpath" com.install4j.runtime.launcher.Launcher stop
 
 
