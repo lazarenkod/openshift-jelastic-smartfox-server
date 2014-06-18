@@ -8,12 +8,12 @@ License-Url:
 Vendor: Smartfox
 Cartridge-Version: 0.0.1
 Cartridge-Vendor: smartfox
-Source-Url: https://github.com/ihorman/openshift-jelastic-smartfox-server.git
+Source-Url: https://github.com/lazarenkod/openshift-jelastic-smartfox-server.git
 Categories:
   - service
   - database
   - embedded
-Website: http://www.neo4j.org/
+Website: http://smartfoxserver.com/
 Help-Topics:
   "Developer Center": https://www.openshift.com/developers
 Cart-Data:
