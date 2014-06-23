@@ -42,15 +42,11 @@ Cart-Data:
     Type: environment
     Description: "Unique ID which identified the gear. This value changes between gears."
 Provides:
-  - neo4j-1.9
-  - "neo4j"
-Scaling:
-  Min: 1
-  Max: 1
+  - "smartfox-server"
 Endpoints:
   - Private-IP-Name:   DB_HOST
     Private-Port-Name: DB_PORT
-    Private-Port:      7474
+    Private-Port:      9933
     Public-Port-Name:  DB_PROXY_PORT
 Publishes:
   publish-db-connection-info:
